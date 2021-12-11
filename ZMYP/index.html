@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8" />
+		<title>至美优品</title>
+		<!-- 网站说明 内容、关键词-->
+		<meta name="description" content="至美优品"/>
+		<meta name="keywords" content="至美优品 方便快捷的网络购物平台"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=1.0, user-scalable=yes minimum=0.5">
+		<link rel="stylesheet" href="css/base.css"/>
+		<link rel="stylesheet" href="css/common.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel=”stylesheet” type=”text/css”
+		media=”screen and (max-device-width: 400px)”
+		href=”tinyScreen.css” />
+		<link rel=”stylesheet” type=”text/css”
+		media=”screen and (min-width: 400px) and (max-device-width: 600px)”
+		href=”smallScreen.css” />
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	    <script src="js/lunbotu.js"></script>
+		</head>
+		
+		<!-- 设置网页小图标 -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<!-- 设置字体小图标 -->
+		
+	<body>
+		
+		<!-- 顶部快捷导航start -->
+		<div class="shortcut">
+			<div class="w">
+				<div class="fl">
+					<ul>
+						<li>至美优品欢迎您!</li>
+						<li>
+							<a href="#">登录</a> 
+							<a href="//cart.jd.com/cart.action" class="style-red">免费注册</a>
+						</li>
+					</ul>
+				</div>
+				<div class="fr">
+					<ul>
+						<li><a href="#">我的订单</a></li>
+						<li class="spacer"></li>
+						<li><a href="#">我的至美优品</a></li>
+						<li class="spacer"></li>
+						<li><a href="#">至美优品会员</a></li>
+						<li class="spacer"></li>
+						<li><a href="https://mst.vip.com/hVPsAcT1SlffeUgyfERpvw.php?wapid=mst_100041835&_src=mst&extra_banner=115041835&nova=1&nova_platform=2&mst_page_type=guide&extra_from_tab=1" target="_blank">企业采购</a></li>
+						<li class="spacer"></li>
+						<li><a href="#">关注至美优品</a></li>
+						<li class="spacer"></li>
+						<li><a href="#">客户服务</a></li>
+						<li class="spacer"></li>
+						<li><a href="#">网站导航</a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			function divMiddle(){
+			var dairyBox = document.getElementById('dairyBox');
+			
+			var divHeight = dairyBox.offsetHeight;
+			
+			var bodyHeight = document.body.offsetHeight;
+			
+			if(bodyHeight > divHeight){
+			var endHeight = parseInt(bodyHeight - divHeight)/2;
+			
+			dairyBox.style.marginTop = endHeight + "px";
+			
+			}else{
+			dairyBox.style.marginTop = 0;
+			
+			dairyBox.style.top = 0;
+			
+			}
+			
+			}
+			
+			if(document.all){
+			window.attachEvent('onload',divMiddle);
+			
+			}else{
+			window.addEventListener('load',divMiddle,false);
+			
+			}
+			
+			var resizeTimer = null;
+			
+			window.onresize = function(){
+			resizeTimer = resizeTimer?null:setTimeout(divMiddle,0);
+			
+			}
+		</script>
+		<!-- header制作 -->
+		<div class="header w">
+			<!-- logo制作 -->
+			<div class="logo">
+				<h1>
+					<a href="index.html" title="至美优品">至美优品</a>
+				</h1>
+			</div>
+			<!-- logo完成 -->
+			<!-- 搜素search制作 -->
+			<div class="search">
+				<input type="text" / class="text" value="至美优品">
+				<button class="btn">搜索</button>
+				</div>
+				<!-- 热词框hotwrods -->
+				<div class="hotwrods">
+					<a href="https://mst.vip.com/hVPsAcT1SlffeUgyfERpvw.php?wapid=mst_100041835&_src=mst&extra_banner=115041835&nova=1&nova_platform=2&mst_page_type=guide&extra_from_tab=1" class="style-red" target="_blank">优惠购首发</a>
+					<a href="https://www.vip.com/" target="_blank">亿元优惠</a>
+					<a href="https://mst.vip.com/bwU4kPA93bm2EBnkuKtL6g.php?wapid=mst_100014286&_src=mst&extra_banner=115014286&nova=1&nova_platform=2&mst_page_type=guide&extra_from_tab=1"target="_blank">9.9元团购</a>
+					<a href="https://mst.vip.com/bwU4kPA93bm2EBnkuKtL6g.php?wapid=mst_100014286&_src=mst&extra_banner=115014286&nova=1&nova_platform=2&mst_page_type=guide&extra_from_tab=1"target="_blank">每满9.9件减30</a>
+					<a href="https://suning.tmall.com/?spm=a21bo.21814703.201859.8.5af911d95XWmSm" target="_blank">办公用品</a>
+					<a href="https://diannao.jd.com/" target="_blank">电脑</a>
+					<a href="http://sale.vmall.com/huaweizone.html" target="_blank">通信</a>
+				</div>
+				<!-- shopcar -->
+			
+			<div class="shopcar">
+				<img src="img/shopcar.jpg" /><a target="_blank" href="//cart.jd.com/cart.action" target="_blank">我的购物车</a>
+			</div>
+		</div>
+		<!-- header完成 -->	
+		<!-- nav -->
+		<div class="nav">
+			<div class="w">
+				<div class="dorpdown">
+					<div class="dt">全部商品分类</div>
+					<div class="dd" style="display: ;">
+						<ul>
+							<li class="menu_item"><a href="//jiadian.jd.com" target="_blank">家用电器</a> <i> > </i></li>
+							<li class="menu_item">
+								<a href="https://shouji.jd.com/" target="_blank">手机</a>
+								<a href="https://shuma.jd.com/" target="_blank">数码</a>
+								<a href="https://wt.jd.com/" target="_blank">通信</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://channel.jd.com/furniture.html" target="_blank">家居</a>
+								<a href="https://channel.jd.com/furniture.html" target="_blank">家具</a>
+								<a href="https://channel.jd.com/furniture.html" target="_blank">家装</a>
+								<a href="https://channel.jd.com/kitchenware.html" target="_blank">厨具</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://www.vip.com/nav/53174451.html" target="_blank">化妆</a>
+								<a href="https://www.vip.com/nav/53174451.html" target="_blank">清洁用品</a>
+								<a href="https://channel.jd.com/pet.html" target="_blank">宠物</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://www.vip.com/nav/53174445.html" target="_blank">鞋靴</a>
+								<a href="https://www.vip.com/nav/53174445.html" target="_blank">箱包</a>
+								<a href="https://www.vip.com/nav/53174458.html" target="_blank">珠宝</a>
+								<a href="https://channel.jd.com/watch.html" target="_blank">奢侈品</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://phat.jd.com/10-109.html" target="_blank">运动户外</a>
+								<a href="https://channel.jd.com/watch.html" target="_blank">钟表</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://car.jd.com/" target="_blank">汽车</a>
+								<a href="https://car.jd.com/" target="_blank">汽车用品</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://www.vip.com/nav/53174456.html" target="_blank">母婴</a>
+								<a href="https://toy.jd.com/" target="_blank">玩具乐器</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://www.vip.com/nav/53174457.html" target="_blank">食品</a>
+								<a href="https://jiu.jd.com/" target="_blank">酒类</a>
+								<a href="https://china.jd.com/" target="_blank">特产</a>
+								<a href="https://fresh.jd.com/" target="_blank">生鲜</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://health.jd.com/" target="_blank">医药</a>
+								<a href="https://health.jd.com/" target="_blank">保健</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://book.jd.com/" target="_blank">图书</a>
+								<a href="https://e.jd.com/" target="_blank">音像</a>
+								<a href="https://e.jd.com/" target="_blank">电子书</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://jipiao.jd.com/" target="_blank">机票</a>
+								<a href="https://trip.jd.com/" target="_blank">旅行</a>
+								<a href="#">充值</a>
+								<a href="#">票务</a>
+								<i> > </i>
+							</li>
+							<li class="menu_item">
+								<a href="https://www.jdt.com.cn/finance/" target="_blank">理财</a>
+								<a href="https://www.jdt.com.cn/finance/" target="_blank">众筹</a>
+								<a href="https://www.jdt.com.cn/finance/" target="_blank">白条</a>
+								<a href="https://www.jdt.com.cn/finance/" target="_blank">保险</a>
+								<i> > </i>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="navitems fl">
+					<ul>
+						<li><a href="https://www.mogu.com/" target="_blank">服装城</a></li>
+						<li><a href="https://list.mogu.com/book/magic/51894?acm=3.mce.1_10_1td6g.132244.0.iNaBtsL2bsHfv.pos_875-m_685024-sd_119&ptp=31.v5mL0b._head.0.GiWDiXQV" target="_blank">美妆馆</a></li>
+						<li><a href="https://www.taobao.com/" target="_blank">传智超市</a></li>
+						<li><a href="https://www.taobao.com/markets/gmall/pc-index" target="_blank">全球购</a></li>
+						<li><a href="https://red.jd.com/" target="_blank">闪购</a></li>
+						<li><a href="http://t.dianping.com/shanghai" target="_blank">团购</a></li>
+						<li><a href="https://b2b.baidu.com/ss?q=%E6%8B%8D%E5%8D%96&from=b2b_straight&srcid=5103&from_restype=product" target="_blank">拍卖</a></li>
+						<li><a href="https://pc.mogu.com/content/topic/11c8u9ss?tagId=11c8u9ss&tagName=&stickyId=&acm=3.mce.1_17_11c8u9ss.138851..6WsLzsL2f54A3.t_6WsLzsL2f54A4-sd_130&ptp=31.HOban._head.67.ifyM7QI4" target="_blank">有趣</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 主体 -->
+		<div class="mander">
+		
+			<div class="main">
+				<div class="box" id="box">
+				    <div class="inner">
+				        <!--轮播图-->
+				        <ul>
+				            <li><a href="https://re.taobao.com/action_ecpm_home?ali_trackid=19_8b85b6ae24438db48c26b94ccc68eb68" target="_blank"><img src="img/01.jpg" alt=""></a></li>
+				            <li><a href="https://pro.jd.com/mall/active/4KDLi51oRse1x9VTViLMwA2yLf6G/index.html?extension_id=eyJhZCI6IiIsImNoIjoiIiwic2hvcCI6IiIsInNrdSI6IiIsInRzIjoiIiwidW5pcWlkIjoie1wiY2xpY2tfaWRcIjpcIjBmNDU5MDQ4LTdhNDMtNDVjMy1hZmZkLWI5ZjBlMDc1NTZhOVwiLFwibWF0ZXJpYWxfaWRcIjpcIjQ3MzQwMjQ4MDZcIixcInBvc19pZFwiOlwiMzUwNFwiLFwic2lkXCI6XCI1ZWE3ZmY0ZC00YjQ0LTQ3NGUtYTVkYi05MThmZTljOTI4YzlcIn0ifQ==&jd_pop=0f459048-7a43-45c3-affd-b9f0e07556a9&abt=1" target="_blank"><img src="img/002.webp" alt=""></a></li>
+				            <li><a href="https://www.mogu.com/" target="_blank"><img src="img/003.jpg" alt=""></a></li>
+				            <li><a href="https://www.taobao.com/?spm=a2e0b.20350158.1581860521.1.28a2468aoqC3da&pid=mm_26632258_3504122_32538762&union_lens=recoveryid%3A201_11.92.48.11_20184019_1633511688998%3Bprepvid%3A201_11.92.48.11_20184019_1633511688998&clk1=a2555cfbd30542ecfa7e53055abf84d0" target="_blank"><img src="img/004.jpg" alt=""></a></li>
+				            <li><a href="https://re.taobao.com/action_ecpm_home?ali_trackid=19_9dce04ca1f1d75b2505d1cc53ef471bd" target="_blank"><img src="img/005.jpg" alt=""></a></li>
+				 
+				        </ul>
+				 
+				        <ol class="bar">
+				 
+				        </ol>
+				        <!--左右焦点-->
+				        <div id="arr">
+				                    <span id="left">
+				                        <
+				                    </span>
+				            <span id="right">
+				                        >
+				                    </span>
+				        </div>
+				 
+				    </div>
+				</div>
+				<script>
+				    /**
+				     *
+				     * @param id  传入元素的id
+				     * @returns {HTMLElement | null}  返回标签对象，方便获取元素
+				     */
+				    function my$(id) {
+				        return document.getElementById(id);
+				    }
+				 
+				    //获取各元素，方便操作
+				    var box=my$("box");
+				    var inner=box.children[0];
+				    var ulObj=inner.children[0];
+				    var list=ulObj.children;
+				    var olObj=inner.children[1];
+				    var arr=my$("arr");
+				    var imgWidth=inner.offsetWidth;
+				    var right=my$("right");
+				    var pic=0;
+				    //根据li个数，创建小按钮
+				    for(var i=0;i<list.length;i++){
+				        var liObj=document.createElement("li");
+				 
+				        olObj.appendChild(liObj);
+				        liObj.innerText=(i+1);
+				        liObj.setAttribute("index",i);
+				 
+				        //为按钮注册mouseover事件
+				        liObj.onmouseover=function () {
+				            //先清除所有按钮的样式
+				 
+				            for (var j=0;j<olObj.children.length;j++){
+				                olObj.children[j].removeAttribute("class");
+				            }
+				            this.className="current";
+				            pic=this.getAttribute("index");
+				            animate(ulObj,-pic*imgWidth);
+				        }
+				 
+				    }
+				 
+				 
+				    //设置ol中第一个li有背景颜色
+				    olObj.children[0].className = "current";
+				    //克隆一个ul中第一个li,加入到ul中的最后=====克隆
+				    ulObj.appendChild(ulObj.children[0].cloneNode(true));
+				 
+				    var timeId=setInterval(onmouseclickHandle,2200);
+				    //左右焦点实现点击切换图片功能
+				    box.onmouseover=function () {
+				        arr.style.display="block";
+				        clearInterval(timeId);
+				    };
+				    box.onmouseout=function () {
+				        arr.style.display="none";
+				        timeId=setInterval(onmouseclickHandle,2200);
+				    };
+				 
+				    right.onclick=onmouseclickHandle;
+				    function onmouseclickHandle() {
+				        //如果pic的值是5,恰巧是ul中li的个数-1的值,此时页面显示第六个图片,而用户会认为这是第一个图,
+				        //所以,如果用户再次点击按钮,用户应该看到第二个图片
+				        if (pic == list.length - 1) {
+				            //如何从第6个图,跳转到第一个图
+				            pic = 0;//先设置pic=0
+				            ulObj.style.left = 0 + "px";//把ul的位置还原成开始的默认位置
+				        }
+				        pic++;//立刻设置pic加1,那么此时用户就会看到第二个图片了
+				        animate(ulObj, -pic * imgWidth);//pic从0的值加1之后,pic的值是1,然后ul移动出去一个图片
+				        //如果pic==5说明,此时显示第6个图(内容是第一张图片),第一个小按钮有颜色,
+				        if (pic == list.length - 1) {
+				            //第五个按钮颜色干掉
+				            olObj.children[olObj.children.length - 1].className = "";
+				            //第一个按钮颜色设置上
+				            olObj.children[0].className = "current";
+				        } else {
+				            //干掉所有的小按钮的背景颜色
+				            for (var i = 0; i < olObj.children.length; i++) {
+				                olObj.children[i].removeAttribute("class");
+				            }
+				            olObj.children[pic].className = "current";
+				        }
+				    }
+				    left.onclick=function () {
+				        if (pic==0){
+				            pic=list.length-1;
+				            ulObj.style.left=-pic*imgWidth+"px";
+				        }
+				        pic--;
+				        animate(ulObj,-pic*imgWidth);
+				        for (var i = 0; i < olObj.children.length; i++) {
+				            olObj.children[i].removeAttribute("class");
+				        }
+				        //当前的pic索引对应的按钮设置颜色
+				        olObj.children[pic].className = "current";
+				    };
+				 
+				    //设置任意的一个元素,移动到指定的目标位置
+				    function animate(element, target) {
+				        clearInterval(element.timeId);
+				        //定时器的id值存储到对象的一个属性中
+				        element.timeId = setInterval(function () {
+				            //获取元素的当前的位置,数字类型
+				            var current = element.offsetLeft;
+				            //每次移动的距离
+				            var step = 10;
+				            step = current < target ? step : -step;
+				            //当前移动到位置
+				            current += step;
+				            if (Math.abs(current - target) > Math.abs(step)) {
+				                element.style.left = current + "px";
+				            } else {
+				                //清理定时器
+				                clearInterval(element.timeId);
+				                //直接到达目标
+				                element.style.left = target + "px";
+				            }
+				        }, 10);
+				    }
+				</script>
+				<div class="newsflash ">
+					<div class="news">
+						<div class="news-hd">
+							至美优品快报
+							<a href="https://kuaibao.jd.com/?ids=268177914,265291768,256778257,256787068" target="_blank" class="style-red">更多 > </a>
+						</div>
+						<div class="news-bd">
+							<ul>
+								<li><a href="https://www.etao.com/cjfl/flash.htm?spm=a2e0b.20350158.1998559106.1.276d468asHpEAV&pid=mm_26632258_3504122_32538762&union_lens=recoveryid%3A201_11.170.86.131_20208030_1633514915436%3Bprepvid%3A201_11.170.86.131_20208030_1633514915436&clk1=399f547d67cb3d0c2c5cbb497b99c512" target="_blank">一淘限时抢购</a></li>
+								<li><a href="https://kuaibao.jd.com/article?id=256778257" target="_blank">笔记本电脑中的“兰博基尼”</a></li>
+								<li><a href="https://kuaibao.jd.com/article?id=256787068" target="_blank">家有一台康佳OLED电视机</a></li>
+								<li><a href="https://kuaibao.jd.com/article?id=268177914" target="_blank">送礼送点啥？我选百草味健康礼品！</a></li>
+								<li><a href="https://kuaibao.jd.com/article?id=265291768" target="_blank">完达山菁采幼儿配方奶粉</a></li>
+								<li><a href="https://kuaibao.jd.com/article?id=1258828" target="_blank">神逆！贾跃亭FF91终于成了。</a></li>
+
+							</ul>
+						</div>
+					</div>
+					<div class="lifeservice">
+						<ul>
+							<li><a href="https://chongzhi.jd.com/" target="_blank"><img src="img/a1.png"></a></li>
+							<li><a href="https://game.jd.com/" target="_blank"><img src="img/a2.png"></a></li>
+							<li><a href="https://movie.jd.com/index.html#/" target="_blank"><img src="img/a3.png"></a></li>
+								
+						</ul>
+					</div>
+					<div class="bargain">
+						<a href="https://alimarket.tmall.com/markets/alimama/mingdian?ali_trackid=19_f50d9ab77d81e88a914fce40f26896c0&spm=a21bo.21814703.201874-zuanshi.3" target="_blank"><img src="img/10.png"</a>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+		
+		<!-- 推荐服务模块 -->
+		<div class="recommend w">
+			<div class="recom-hd">
+				<a href="https://miaosha.jd.com/" target="_blank"><img src="./img/b1.png"</a>
+			</div>
+			<div class="recom-bd">
+				<ul>	
+				<li><a href="https://miaosha.jd.com/#100008203517" target="_blank"><img src="img/c1.png"></a></li>
+				<li><a href="https://miaosha.jd.com/#100016813968" target="_blank"><img src="img/c2.png"></a></li>
+			    <li><a href="https://miaosha.jd.com/#100020733040" target="_blank"><img src="img/c3.png"></a></li>
+			    <li><a href="https://miaosha.jd.com/brandlist.html?brand_id=52615&sku_id=10035147181453" target="_blank"><img src="img/c4.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 楼层区1 -->
+		<div class="floor">
+			 <div class="jiadian w">
+				<div class="bo-hd">
+					<h3>电器</h3>
+					<div class="tab-list">
+						<ul>
+							<li><a href="https://jiadian.jd.com/" target="_blank" class="style-red">热门</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">大家电</a>|</li>
+							<li><a href="https://shjiadian.jd.com/" target="_blank">生活电器</a>|</li>
+							<li><a href="https://cfxjd.jd.com/" target="_blank">厨房电器</a>|</li>
+							<li><a href="https://miaosha.jd.com/specialpricelist.html" target="_blank">呵护健康</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">应季电器</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">空气净水</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">新奇特</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">高端电器</a></li>
+						</ul>
+					</div>
+				</div>
+			 </div>
+			 <div class="bo-bd">
+			 		<ul class="tob-con fl">
+                        <li class="w209"><a href="https://list.vip.com/101226577.html?" target="_blank" ><img src="img/Q1.png"></a></li>
+						<li class="w329"><a href="https://list.vip.com/101226820.html?" target="_blank"><img src="./img/Q2.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101202231.html?" target="_blank"><img src="img/Q3.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101226935.html?" target="_blank"><img src="img/Q4.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101202244.html?" target="_blank"><img src="./img/Q5.png"></a></li>
+						<li class="w209"><a href="https://list.vip.com/101202223.html?" target="_blank"><img src="./img/Q6.png"></a></li>
+					</ul>
+			 </div>
+		</div>
+		
+		
+		
+		<!-- 楼层区2 -->
+		<div class="floor">
+			 <div class="jiadian w">
+				<div class="bo-hd">
+					<h3>品质女装</h3>
+					<div class="tab-list">
+						<ul>
+							<li><a href="https://jiadian.jd.com/" target="_blank" class="style-red">ochirly</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">YINER</a>|</li>
+							<li><a href="https://shjiadian.jd.com/" target="_blank">DKNY</a>|</li>
+							<li><a href="https://cfxjd.jd.com/" target="_blank">LANCY</a>|</li>
+							<li><a href="https://miaosha.jd.com/specialpricelist.html" target="_blank">PORTS</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">MISS SIXTY</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">HAVVA</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">AIVEI</a>|</li>
+							<li><a href="https://jiadian.jd.com/" target="_blank">KARL</a></li>
+						</ul>
+					</div>
+				</div>
+			 </div>
+			 <div class="bo-bd">
+			 		<ul class="tob-con fl">
+		                <li class="w209"><a href="https://list.vip.com/101205041.html?" target="_blank"><img src="img/F1.png"></a></li>
+						<li class="w329"><a href="https://list.vip.com/101205971.html?" target="_blank"><img src="img/F2.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101205060.html?" target="_blank"><img src="img/F3.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101205976.html?" target="_blank"><img src="img/F4.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101205522.html?" target="_blank"><img src="img/F5.png"></a></li>
+						<li class="w209"><a href="https://list.vip.com/101205475.html?" target="_blank"><img src="img/F6.png"></a></li>
+					</ul>
+			 </div>
+		</div>
+		
+		
+		
+		<!-- 楼层区3-->
+		<div class="floor">
+			 <div class="jiadian w">
+				<div class="bo-hd">
+					<h3>美妆个护</h3>
+					<div class="tab-list">
+						<ul>
+							<li><a href="https://list.vip.com/101227125.html?" target="_blank" class="style-red">卡兹兰</a>|</li>
+							<li><a href="https://list.vip.com/101226681.html?" target="_blank">雅诗兰黛</a>|</li>
+							<li><a href="https://list.vip.com/101226717.html?" target="_blank">韩后</a>|</li>
+							<li><a href="https://list.vip.com/101226983.html?" target="_blank">迪奥</a>|</li>
+							<li><a href="https://list.vip.com/101227004.html?" target="_blank">欧莱雅</a>|</li>
+							<li><a href="https://list.vip.com/101227065.html?" target="_blank">完美日记</a>|</li>
+							<li><a href="https://list.vip.com/101226729.html?" target="_blank">花西子</a>|</li>
+							<li><a href="https://list.vip.com/101226970.html?" target="_blank">SK-II</a>|</li>
+							<li><a href="https://list.vip.com/101226799.html?" target="_blank">悦诗风吟</a></li>
+						</ul>
+					</div>
+				</div>
+			 </div>
+			 <div class="bo-bd">
+			 		<ul class="tob-con fl">
+		                <li class="w209"><a href="https://list.vip.com/101227125.html?" target="_blank"><img src="img/o1.png"></a></li>
+						<li class="w329"><a href="https://list.vip.com/101226681.html?" target="_blank"><img src="img/o2.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101226717.html?" target="_blank"><img src="img/o3.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101226983.html" target="_blank"><img src="img/o4.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101227004.html" target="_blank"><img src="img/o5.png"></a></li>
+						<li class="w209"><a href="https://list.vip.com/101227065.html?" target="_blank"><img src="img/o6.png"></a></li>
+					</ul>
+			 </div>
+		</div>
+		
+		
+		
+		
+		<!-- 楼层区4 -->
+		<div class="floor">
+			 <div class="jiadian w">
+				<div class="bo-hd">
+					<h3>母婴</h3>
+					<div class="tab-list">
+						<ul>
+							<li><a href="https://list.vip.com/101205695.html?" target="_blank" class="style-red">DISNEY</a>|</li>
+							<li><a href="https://list.vip.com/101226606.html?" target="_blank">木木屋洗护</a>|</li>
+							<li><a href="https://list.vip.com/101226641.html?" target="_blank">PHILIPS</a>|</li>
+							<li><a href="https://list.vip.com/101205407.html?" target="_blank">红色小象母婴</a>|</li>
+							<li><a href="https://list.vip.com/101226951.html?" target="_blank">水星家纺</a>|</li>
+							<li><a href="https://list.vip.com/101205440.html?" target="_blank">乐高</a>|</li>
+							<li><a href="https://list.vip.com/101205955.html?" target="_blank">蒙牛</a>|</li>
+							<li><a href="https://list.vip.com/101227186.html?" target="_blank">大嘴猴</a>|</li>
+							<li><a href="https://list.vip.com/101205545.html?" target="_blank">Purcotton</a></li>
+						</ul>
+					</div>
+				</div>
+			 </div>
+			 <div class="bo-bd">
+			 		<ul class="tob-con fl">
+		                <li class="w209"><a href="https://list.vip.com/101205695.html?" target="_blank"><img src="img/m1.png"></a></li>
+						<li class="w329"><a href="https://list.vip.com/101226606.html?" target="_blank"><img src="img/m2.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101226641.html?" target="_blank"><img src="img/m3.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101205407.html?" target="_blank"><img src="img/m4.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101226951.html?" target="_blank"><img src="img/m5.png"></a></li>
+						<li class="w209"><a href="https://list.vip.com/101205440.html?" target="_blank"><img src="img/m6.png"></a></li>
+					</ul>
+			 </div>
+		</div>
+		
+		
+		
+		<!-- 楼层区5 -->
+		<div class="floor">
+			 <div class="jiadian w">
+				<div class="bo-hd">
+					<h3>手表配饰</h3>
+					<div class="tab-list">
+						<ul>
+							<li><a href="https://list.vip.com/101226830.html?" target="_blank" class="style-red">古驰</a>|</li>
+							<li><a href="https://list.vip.com/101226784.html?" target="_blank">周生生</a>|</li>
+							<li><a href="https://list.vip.com/101226711.html?" target="_blank">周六福</a>|</li>
+							<li><a href="https://list.vip.com/101227099.html?" target="_blank">施华洛世奇</a>|</li>
+							<li><a href="https://list.vip.com/101227048.html?" target="_blank">潘多拉</a>|</li>
+							<li><a href="https://list.vip.com/101226758.html?" target="_blank">C H J</a>|</li>
+							<li><a href="https://list.vip.com/101227002.html?" target="_blank">BURBERRY</a>|</li>
+							<li><a href="https://list.vip.com/101226795.html?" target="_blank">TSL</a>|</li>
+							<li><a href="https://list.vip.com/101227015.html?" target="_blank">Salvatore Ferragamo</a></li>
+						</ul>
+					</div>
+				</div>
+			 </div>
+			 <div class="bo-bd">
+			 		<ul class="tob-con fl">
+		                <li class="w209"><a href="https://list.vip.com/101226830.html?" target="_blank"><img src="img/S1.png"></a></li>
+						<li class="w329"><a href="https://list.vip.com/101226784.html?" target="_blank"><img src="img/S2.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101226711.html?" target="_blank"><img src="img/S3.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101227099.html?" target="_blank"><img src="img/S4.png"></a></li>
+						<li class="w219"><a href="https://list.vip.com/101227048.html?" target="_blank"><img src="img/S5.png"></a></li>
+						<li class="w209"><a href="https://list.vip.com/101226758.html?" target="_blank"><img src="img/S6.png"></a></li>
+					</ul>
+			 </div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<!-- 底部 -->
+		<div class="footer">
+			<div class="w">
+				<!-- mod_service -->
+				<div class="mod_service">
+					<ul>
+						<li><img src="img/1.png"></li>
+					    <li><img src="img/2.png"></li>
+						<li><img src="img/3.png"></li>
+						<li><img src="img/4.png"></li>
+						<li><img src="img/5.png"></li>
+					</ul>
+				</div>
+				
+				<div class="mod_help" clstag="h|keycount|btm|btmnavi_null02"><div class="grid_c1 mod_help_inner">
+				<div class="mod_help_list">
+					<div class="mod_help_nav">
+						<h5 class="mod_help_nav_tit">购物指南</h5>
+					<ul class="mod_help_nav_con">
+						<li><a href="//help.jd.com/user/issue/list-29.html" target="_blank" rel="noopener noreferrer">购物流程</a></li>
+						<li><a href="//help.jd.com/user/issue/list-151.html" target="_blank" rel="noopener noreferrer">会员介绍</a></li>
+						<li><a href="//help.jd.com/user/issue/list-297.html" target="_blank" rel="noopener noreferrer">生活旅行</a></li>
+						<li><a href="//help.jd.com/user/issue.html" target="_blank" rel="noopener noreferrer">常见问题</a></li>
+						<li><a href="//help.jd.com/user/issue/list-136.html" target="_blank" rel="noopener noreferrer">大家电</a></li>
+						<li><a href="//help.jd.com/user/custom.html" target="_blank" rel="noopener noreferrer">联系客服</a></li>
+						</ul>
+						</div>
+				<div class="mod_help_nav">
+					<h5 class="mod_help_nav_tit">配送方式</h5>
+					<ul class="mod_help_nav_con">
+						<li><a href="//help.jd.com/user/issue/list-81-100.html" target="_blank" rel="noopener noreferrer">上门自提</a></li>
+						<li><a href="//help.jd.com/user/issue/list-81.html" target="_blank" rel="noopener noreferrer">211限时达</a></li>
+						<li><a href="//help.jd.com/user/issue/103-983.html" target="_blank" rel="noopener noreferrer">配送服务查询</a></li>
+						<li><a href="//help.jd.com/user/issue/109-188.html" target="_blank" rel="noopener noreferrer">配送费收取标准</a></li>
+						<li><a href="//help.joybuy.com/help/question-list-201.html" target="_blank" rel="noopener noreferrer">海外配送</a></li>
+						</ul>
+				</div>
+				<div class="mod_help_nav">
+					<h5 class="mod_help_nav_tit">支付方式</h5>
+					<ul class="mod_help_nav_con">
+						<li><a href="//help.jd.com/user/issue/list-172.html" target="_blank" rel="noopener noreferrer">货到付款</a></li>
+						<li><a href="//help.jd.com/user/issue/list-173.html" target="_blank" rel="noopener noreferrer">在线支付</a></li>
+						<li><a href="//help.jd.com/user/issue/list-176.html" target="_blank" rel="noopener noreferrer">分期付款</a></li>
+						<li><a href="//help.jd.com/user/issue/list-175.html" target="_blank" rel="noopener noreferrer">公司转账</a></li>
+						</ul>
+				</div>
+				<div class="mod_help_nav">
+					<h5 class="mod_help_nav_tit">售后服务</h5>
+					<ul class="mod_help_nav_con">
+						<li><a href="//help.jd.com/user/issue/321-981.html" target="_blank" rel="noopener noreferrer">售后政策</a></li>
+						<li><a href="//help.jd.com/user/issue/list-132.html" target="_blank" rel="noopener noreferrer">价格保护</a></li>
+						<li><a href="//help.jd.com/user/issue/130-978.html" target="_blank" rel="noopener noreferrer">退款说明</a></li>
+						<li><a href="//myjd.jd.com/repair/repairs.action" target="_blank" rel="noopener noreferrer">返修/退换货</a></li>
+						<li><a href="//help.jd.com/user/issue/list-50.html" target="_blank" rel="noopener noreferrer">取消订单</a></li>
+						</ul>
+				</div>
+				<div class="mod_help_nav">
+					<h5 class="mod_help_nav_tit">特色服务</h5>
+					<ul class="mod_help_nav_con">
+						<li><a href="//1paipai.jd.com/" target="_blank" rel="noopener noreferrer">夺宝岛</a></li>
+						<li><a href="//help.jd.com/user/issue/list-134.html" target="_blank" rel="noopener noreferrer">DIY装机</a></li>
+						<li><a href="//fuwu.jd.com/" target="_blank" rel="noopener noreferrer">延保服务</a></li>
+						<li><a href="//o.jd.com/market/index.action" target="_blank" rel="noopener noreferrer">E卡</a></li>
+						<li><a href="//mobile.jd.com/" target="_blank" rel="noopener noreferrer">通信</a></li>
+						<li><a href="//smart.jd.com/" target="_blank" rel="noopener noreferrer">智能</a></li>
+						</ul>
+						</div>
+						<div class="mod_help_cover"><h5 class="mod_help_cover_tit">至美优品自营覆盖区县</h5>
+						<div class="mod_help_cover_con">
+							<p class="mod_help_cover_info">至美优品已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+							<p class="mod_help_cover_more"><a href="//help.jd.com/user/issue/103-983.html" target="_blank" rel="noopener noreferrer">查看详情<i class="iconfont">
+							</i></a></p></div>
+				
+							</div>
+							</div>
+							</div>
+							</div>
+							
+							<div class="mod_copyright"><div class="grid_c1 mod_copyright_inner"><p class="mod_copyright_links" clstag="h|keycount|btm|btmnavi_null03"><a href="//about.jd.com" target="_blank" rel="noopener noreferrer">关于我们</a><span class="mod_copyright_split">|</span><a href="//about.jd.com/contact" target="_blank" rel="noopener noreferrer">联系我们</a><span class="mod_copyright_split">|</span><a href="//help.jd.com/user/custom.html" target="_blank" rel="noopener noreferrer">联系客服</a><span class="mod_copyright_split">|</span><a href="//lai.jd.com" target="_blank" rel="noopener noreferrer">合作招商</a><span class="mod_copyright_split">|</span><a href="//helpcenter.jd.com/venderportal/index.html" target="_blank" rel="noopener noreferrer">商家帮助</a><span class="mod_copyright_split">|</span><a href="//jzt.jd.com" target="_blank" rel="noopener noreferrer">营销中心</a><span class="mod_copyright_split">|</span><a href="//app.jd.com/" target="_blank" rel="noopener noreferrer">至美优品</a><span class="mod_copyright_split">|</span><a href="//club.jd.com/links.aspx" target="_blank" rel="noopener noreferrer">友情链接</a><span class="mod_copyright_split">|</span><a href="//media.jd.com/" target="_blank" rel="noopener noreferrer">销售联盟</a><span class="mod_copyright_split">|</span><a href="//pro.jd.com/mall/active/3WA2zN8wkwc9fL9TxAJXHh5Nj79u/index.html" target="_blank" rel="noopener noreferrer">社区</a><span class="mod_copyright_split">|</span><a href="//pro.jd.com/mall/active/3TF25tMdrnURET8Ez1cW9hzfg3Jt/index.html" target="_blank" rel="noopener noreferrer">风险监测</a><span class="mod_copyright_split">|</span><a href="//about.jd.com/privacy/" target="_blank" rel="noopener noreferrer">隐私政策</a><span class="mod_copyright_split">|</span><a href="//gongyi.jd.com" target="_blank" rel="noopener noreferrer">公益</a><span class="mod_copyright_split">|</span><a href="//www.joybuy.com/" target="_blank" rel="noopener noreferrer">English Site</a><span class="mod_copyright_split">|</span><a href="//corporate.jd.com" target="_blank" rel="noopener noreferrer">Media &amp; IR</a></p><div class="mod_copyright_info"><div class="mod_copyright_cert" clstag="h|keycount|btm|btmnavi_null04"><p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000088" target="_blank" rel="noopener noreferrer">京公网安备 11000002000088号</a><span class="mod_copyright_split">|</span><a href="http://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">京ICP备11041704号</a><span class="mod_copyright_split">|</span><a href="//jdwp.jd.com/544-2927.html" target="_blank" rel="noopener noreferrer">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span class="mod_copyright_split">|</span><span>新出发京零&nbsp;字第大120007号</span></p><p><span>互联网出版许可证编号新出网证(京)字150号</span><span class="mod_copyright_split">|</span><a href="//pro.jd.com/mall/active/3bVDLXHdwVmdQksGF8TtS7ocq1NY/index.html" target="_blank" rel="noopener noreferrer">出版物经营许可证</a><span class="mod_copyright_split">|</span><a href="//img10.360buyimg.com/ling/jfs/t1/164806/19/5070/567736/6017d6d6Eab06ec9c/d8ca6e029f495447.jpg" target="_blank" rel="noopener noreferrer">网络文化经营许可证京网文[2020]6112-1201号</a><span class="mod_copyright_split">|</span><span>违法和不良信息举报电话：4006561155</span></p><p><span>Copyright&nbsp;©&nbsp;2004&nbsp;-&nbsp;2021&nbsp;&nbsp;京东JD.com&nbsp;版权所有</span><span class="mod_copyright_split">|</span><span>消费者维权热线：4006067733</span><span class="mod_copyright_split">|</span><a href="//pro.jd.com/mall/active/38PitHBfR7ZopNHRSHnuuWR5AMDL/index.html" target="_blank" rel="noopener noreferrer" class="mod_copyright_license">经营证照</a><span class="mod_copyright_split">|</span><span>(京)网械平台备字(2018)第00003号</span><span class="mod_copyright_split">|</span><a href="//img14.360buyimg.com/ling/jfs/t1/174269/9/9343/427804/609cfd9fE45ac1f13/7b439af70aad11cc.jpg" target="_blank" rel="noopener noreferrer" class="mod_business_license">营业执照</a></p></div><div class="mod_copyright_inter"><p><a class="mod_copyright_inter_lk" href="//www.joybuy.com/?source=1&amp;visitor_from=3" target="_blank" rel="noopener noreferrer" clstag="h|keycount|btm|btmnavi_null0501"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_global"></i>Global Site</a><span class="mod_copyright_split">|</span><a class="mod_copyright_inter_lk" href="//www.jd.ru/?source=1&amp;visitor_from=3" target="_blank" rel="noopener noreferrer" clstag="h|keycount|btm|btmnavi_null0502"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_rissia"></i>Сайт России</a><span class="mod_copyright_split">|</span><a class="mod_copyright_inter_lk" href="//www.jd.id/?source=1&amp;visitor_from=3" target="_blank" rel="noopener noreferrer" clstag="h|keycount|btm|btmnavi_null0503"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_indonesia"></i>Situs Indonesia</a><span class="mod_copyright_split">|</span><a class="mod_copyright_inter_lk" href="//www.joybuy.es/?source=1&amp;visitor_from=3" target="_blank" rel="noopener noreferrer" clstag="h|keycount|btm|btmnavi_null0504"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_spain"></i>Sitio de España</a><span class="mod_copyright_split">|</span><a class="mod_copyright_inter_lk" href="//www.jd.co.th/?source=1&amp;visitor_from=3" target="_blank" rel="noopener noreferrer" clstag="h|keycount|btm|btmnavi_null0505"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_thailand"></i>เว็บไซต์ประเทศไทย</a></p></div><div class="mod_copyright_subsites" clstag="h|keycount|btm|btmnavi_null06"><p><span>至美优品旗下网站：</span><a href="https://www.jdpay.com/" target="_blank" rel="noopener noreferrer">钱包</a><span class="mod_copyright_split">|</span><a href="http://www.jdcloud.com" target="_blank" rel="noopener noreferrer">至美</a></p></div></div><p class="mod_copyright_auth" clstag="h|keycount|btm|btmnavi_null07"><a class="mod_copyright_auth_ico mod_copyright_auth_ico_2" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&amp;ampct=df&amp;amppa=294005" target="_blank" rel="noopener noreferrer">可信网站信用评估</a><a class="mod_copyright_auth_ico mod_copyright_auth_ico_3" href="http://www.cyberpolice.cn" target="_blank" rel="noopener noreferrer">网络警察提醒你</a><a class="mod_copyright_auth_ico mod_copyright_auth_ico_4" href="https://search.szfw.org/cert/l/CX20120111001803001836" target="_blank" rel="noopener noreferrer">诚信网站</a><a class="mod_copyright_auth_ico mod_copyright_auth_ico_5" href="http://www.12377.cn/" target="_blank" rel="noopener noreferrer">中国互联网举报中心</a><a class="mod_copyright_auth_ico mod_copyright_auth_ico_6" href="http://www.12377.cn/node_548446.htm" target="_blank" rel="noopener noreferrer">网络举报APP下载</a><a class="mod_copyright_auth_ico mod_copyright_auth_ico_7" href="http://www.shdf.gov.cn/shdf/channels/740.html" target="_blank" rel="noopener noreferrer">扫黄打非网举报专区</a></p></div></div>
+			</div>
+		</div>
+		
+		<script>
+			alert("若页面显示错位请按住ctrl键滑动鼠标调节显示比例")
+		</script>
+	</body>
+</html>

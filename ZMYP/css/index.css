@@ -1,0 +1,264 @@
+.main{
+	width: 1270px;
+	height: 455px;
+	margin-left: 420px;
+	margin-top: 10px;
+}
+.box{
+	width:968px;
+	height: 455px;
+	background-color: #800080;
+	float: left;
+	position: relative;
+	/* border: 1px solid #ccc;
+	    margin: 100px auto;
+	    padding: 5px; */
+	}
+	
+
+/* .arrow-l,
+.arrow-r{
+	position: absolute;
+	top: 50%;
+	margin-top:-20px ;
+	width: 24px;
+	height: 45px;
+	background: rgba(0, 0, 0, .3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px; */
+/* }
+.arrow-r{
+	right: 0;
+} */
+
+/* .circle{
+	position: absolute;
+	bottom:10px ;
+	left: 50px;
+}
+.circle li{
+	float: left;
+	width: 8px;
+	height: 8px;
+	/* background-color:black ; */
+	/* border: 2px solid palevioletred;
+	margin: 0 10px;
+	border-radius: 50%; */
+	/* 鼠标经过变成小手 */
+	/* cursor: pointer ; */
+
+/* }
+.current{
+	background-color: green;
+} */ 
+
+       
+       /* .box {
+            width: 500px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+            padding: 5px;
+        } */
+        .inner{
+            width: 968px;
+            height: 455px;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner img{
+            width: 968px;
+            height: 455px;
+            vertical-align: top
+        }
+.inner ul {
+            width: 1000%;
+            position: absolute;
+            list-style: none;
+            left:0;
+            top: 0;
+        }
+        .inner li{
+            float: left;
+ 
+        }
+ 
+       .inner ol {
+            position: absolute;
+            height: 20px;
+            right: 20px;
+            bottom: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+.inner ol li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            background-color: #fff;
+            margin: 5px;
+            cursor: pointer;
+ 
+        }
+        ol .current{
+            background-color: red;
+        }
+        #arr{
+            display: none;
+        }
+        #arr span{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            margin-top: -20px;
+            background: #fff;
+            cursor: pointer;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            font-family: '黑体';
+            font-size: 30px;
+            color: #000;
+            opacity: 0.5;
+            border: 1px solid #fff;
+        }
+        #arr #right {
+            right: 5px;
+            left: auto;
+        }
+
+.newsflash{
+	width: 292px;
+	height: 455px;
+	float: right;
+}
+.news {
+	height: 163px;
+	border: 1px solid #ccc;
+
+}
+.lifeservice{
+	height: 208px;
+
+	background-color: 1px solid plum;
+	border-top: none;	
+}
+.lifeservice img{
+	width: 290px;
+	height: 70px;
+	border-right: 1px solid plum;
+	border-bottom: 1px solid #ccc;
+}
+.bargain{
+	height: 75px;
+	margin-top: 5px;
+	
+}
+.bargain img{
+	width: 290px;
+	height: 80px;
+}
+.news-hd{
+	height: 32px;
+	/* dotted 点线 dashed 虚线 */
+	border-bottom: 1px dotted #ccc;
+	font-size: 16px;
+	line-height: 32px ;
+	padding-left: 20px;
+}
+.news-hd a{
+	float: right;
+	padding-right: 15px;
+}
+.news-bd{
+	font-size: 16px;
+	padding-left: 20px;
+	
+}
+.news-bd a{
+	color: #C81623;
+}
+/* 推荐模块 */
+.recommend {
+	height: 163px;
+	margin-top: 12px;
+}
+.recom-hd{
+	float: left;
+	width: 208px;
+	height: 163px;
+
+}
+.recom-bd{
+	float: left;
+	width: 1283px;
+	height: 160px;
+
+}
+.recom-bd li{
+	float: left;
+	width: 319px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+	
+	margin-top: 10px;
+}
+/* 楼层区 */
+.bo-hd{
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.bo-hd h3{
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+}
+.tab-list{
+	float: right;
+	line-height: 30px;
+}
+.tab-list li{
+	float: left;
+}
+.tab-list li a{
+	margin: 0 15px;
+}
+.bo-bd{
+	height: 370px;
+	
+	width: 1500px;
+	margin:0 auto;
+}
+.w209{
+	width: 209px;
+}
+.w329{
+	width: 329px;
+}
+.w329 img{
+	width: 329px;
+	height: 361px;
+}
+.w219{
+	float: left;
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w219 img{
+	width: 219px;
+	height: 361px;
+}
+.tab-con-item{
+	border-bottom: 1px solid #ccc ;
+}
+.tab-con li{
+	height: 370px;
+	float: left;
+}
+219 180

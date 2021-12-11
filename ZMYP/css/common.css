@@ -1,0 +1,203 @@
+
+.fl li{
+	float: left;
+	margin: 4px;
+}
+.fr{
+	float: right;
+}
+/* 版心 */
+.w{
+	width:1500px;
+	margin:0 auto;
+	height:31px ;
+	line-height: 31px;
+	
+}
+.style-red{
+	color: #c81623;
+}
+.spacer{
+	width:1px ;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+<!-- 顶部快捷导航start -->
+.shortcut{
+	height: 31px;
+	background-color: gainsboro;
+	line-height: 31px;
+	width: 1950px;
+}
+.shortcut li{
+	float: left;
+}
+.header{
+	position: relative;
+	height: 105px;
+	background-color: white;
+}
+.logo{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	
+	width: 175px;
+	height: 56px;
+	background-color: purple;	
+}
+.logo a {
+	display: block;
+	overflow: hidden;
+	width: 175px;
+	height: 56px;
+	background: url(../img/ico.jpg) no-repeat;
+	text-indent: -999px;
+}
+.search{
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.text{
+	float: left;
+	width: 445px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	padding-left: 10px;
+	color: #ccc;
+}
+.btn{
+	float: left;
+	width: 5.125rem;
+	height: 36px;
+	background-color: #b1191a;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+}
+.hotwrods{
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwrods a {
+	margin: 10px;
+}
+.shopcar{
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+	line-height: 34px;
+}
+.nav{
+	height: 65px;
+	border-bottom: 2px solid #B1191A;
+}
+.dorpdown{
+	width: 209px;
+	height: 65px;
+	background-color: pink;
+	float: left;
+}
+.dorpdown .dt{
+	width: 100%;
+	height: 100%;
+	background-color:#B1191A;
+	font-size: 21px;
+	color: #fff;
+	text-align: center;
+	line-height: 65px;	
+}
+.dorpdown .dd{
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+.menu_item{
+	height: 31px;
+	line-height:31px ;
+	margin-left: 1px;
+	padding: 0 10px;
+}
+.menu_item a{
+	font-size: 16px;
+	color: #fff;
+}
+.menu_item i{
+	float: right;
+	font-size: 25px;
+	color: #fff;
+}
+.menu_item:hover{
+	background-color: #fff;
+}
+.menu_item:hover a{
+	color: #C81623;
+}
+.navitems{
+	float:left ;
+	margin-left: 35px ;
+}
+.navitems li{
+	float: left;
+}
+.navitems li a{
+	display: block;
+	padding: 0 18px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+}
+
+
+/* footer制作 */
+.footer{
+	  height: 386px;
+	background-color: ghostwhite
+	padding-top: 30px;
+}
+.mod_service{
+	height: 79px;
+/* 	background-color:pink ; */
+	border-bottom: 1px solid red;
+}
+.mod_service li{
+	float: left;
+	width: 300px;
+	height: 79px;
+}
+.mod_help{
+	height: 280px;
+	background-color: ;
+	border-bottom: 1px solid red;
+}
+.mod_help_nav{
+	width: 200px;
+	padding: 20px 0 0 50px;
+}
+.mod_help_item dt{
+	
+	
+}
+.mod_help_item dd {
+	float: left;
+}
+.mod_help_nav{
+	float:left ;
+}
+.mod_help_nav_tit{
+	height: 32px;
+	font-size: 20px;
+}
+.mod_copyright{
+	text-align: center;
+}
+ .mod_copyright_links{
+	 margin: 20px 0 5px 0;
+ }
